@@ -1,4 +1,3 @@
 # parrotMinidroneCompetition
-
-The wrong place to put this, but here is some sample code and a really good explanation of line detection and circle detection using Hough Transform plus sample code in MATLAB
+Sample MATLAB code and v.good explanation of line and circle detection using edge detection and Hough Transform
 https://www.youtube.com/watch?v=kMK8DjdGtZo
