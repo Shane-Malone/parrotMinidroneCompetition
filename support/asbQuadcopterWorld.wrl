@@ -82,8 +82,23 @@ DEF TrackSection1 Transform {
   }
 }
 # Copyright 2017 The MathWorks, Inc.
+DEF TrackSection5 Transform {
+  translation 51 -0.02 94.35
+  rotation 0 1 0 0.785
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 1 0 0
+      }
+    }
+    geometry Box {
+      size 0.12 0.001 1
+    }
+  }
+}
+# Copyright 2017 The MathWorks, Inc.
 DEF TrackSection4 Transform {
-  translation 50.7 -0.02 94
+  translation 51.05 -0.02 93.6
   rotation 0 1 0 -0.785
   children Shape {
     appearance Appearance {
@@ -92,7 +107,7 @@ DEF TrackSection4 Transform {
       }
     }
     geometry Box {
-      size 0.12 0.001 2
+      size 0.12 0.001 1
     }
   }
 }
@@ -113,7 +128,7 @@ DEF TrackSection2 Transform {
 }
 # Copyright 2017 The MathWorks, Inc.
 DEF TrackSection3 Transform {
-  translation 49.7 -0.02 95
+  translation 51.5 -0.02 94.9
   children Shape {
     appearance Appearance {
       material Material {
